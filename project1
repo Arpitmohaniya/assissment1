@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huddle Landing Page</title>
+    <style>
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: #e91e63;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.stats {
+    background-color: #fff;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stat-card {
+    text-align: center;
+}
+
+.stat-card .icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.stat-card p {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.stat-card span {
+    font-size: 1rem;
+    color: #999;
+}
+
+.feature {
+    padding: 4rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feature-card {
+    text-align: left;
+    width: 45%;
+}
+
+.feature-card img {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+}
+
+.cta {
+    background-color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+footer .contact p {
+    margin-bottom: 0.5rem;
+}
+
+footer .social-icons {
+    display: flex;
+}
+
+footer .social-icons a {
+    margin-right: 1rem;
+}
+
+footer .social-icons .material-icons {
+    font-size: 2rem;
+    color: #fff;
+}
+
+footer .newsletter {
+    text-align: left;
+}
+
+footer .newsletter h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+footer .newsletter p {
+    margin-bottom: 1rem;
+}
+
+footer .newsletter form input {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+footer .newsletter form button {
+    background-color: #e91e63;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .stats {
+        flex-direction: column;
+    }
+
+    .stat-card {
+        margin-bottom: 2rem;
+    }
+
+    .feature {
+        flex-direction: column;
+    }
+
+    .feature-card {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer .contact, footer .newsletter {
+        margin-bottom: 2rem;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+
+                <img src="https://raw.githubusercontent.com/ssagar1999/html_task/a8da9738d1e99ab1015308297e3b71bc0e9ac915/images/logo.svg"
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li>
+                        <a href="#">Try It Free</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Build The Community Your Fans Will Love</h1>
+                <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.  Create connections with your users as you engage in genuine discussion.</p>
+                <button class="btn">Get Started For Free</button>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="container">
+                <div class="stat-card">
+                    <div class="icon">
+                        <img src="https://raw.githubusercontent.com/ssagar1999/html_task/a8da9738d1e99ab1015308297e3b71bc0e9ac915/images/screen-mockups.svg"
+                    </div>
+                    <p>1.4k+</p>
+                    <span>Communities Formed</span>
+                    <img src="https://raw.githubusercontent.com/ssagar1999/html_task/a8da9738d1e99ab1015308297e3b71bc0e9ac915/images/icon-communities.svg"
+                </div>
+                <div class="stat-card">
+                    <div class="icon">
+                       
+                    </div>
+                    <p>2.7m+</p>
+                    <span>Messages Sent</span>
+                    <img src="https://raw.githubusercontent.com/ssagar1999/html_task/a8da9738d1e99ab1015308297e3b71bc0e9ac915/images/icon-messages.svg"
+                </div>
+            </div>
+        </section>
+
+        <section class="feature">
+            <div class="container">
+                <div class="feature-card">
+                    <h2>Grow Together</h2>
+                    <p>Generate meaningful discussions with your audience and build a strong, loyal community.  Think of the insightful conversation you missed,  Huddle is here to help you. </p>
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/002/723/694/small_2x/helping-hand-concept-illustration-worker-helping-each-other-for-business-group-free-vector.jpg" alt="Grow Together Illustration">
+                </div>
+                <div class="feature-card">
+                    <h2>Flowing Conversations</h2>
+                    <p>You wouldn’t  appreciate a conversation in real life, so why do it virtual? Our threads have put hard work in making for a more relaxed feel. </p>
+                    <img src="https://mhamed.ir/huddle1/assets/images/illustration-flowing-conversation.svg" alt="Flowing Conversations Illustration">
+                </div>
+            </div>
+        </section>
+
+        <section class="feature">
+            <div class="container">
+                <div class="feature-card">
+                    <h2>Your Users</h2>
+                    <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, since we're agnostics to your app, your users will be able to sign in with just one click! </p>
+                    <img src="https://chisellabs.com/blog/wp-content/uploads/2021/05/What-Is-User-Experience-Research.png" alt="Your Users Illustration">
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Ready To Build Your Community?</h2>
+                <button class="btn">Get Started For Free</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="logo">
+                <span>huddle</span>
+                <img src="https://raw.githubusercontent.com/ssagar1999/html_task/a8da9738d1e99ab1015308297e3b71bc0e9ac915/images/logo.svg"
+            </div>
+            <div class="contact">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. </p>
+                <p>Phone: +1-543-123-4567</p>
+                <p>Email: example@huddle.com</p>
+                <div class="social-icons">
+                    <a href="#">
+                        <img src="https://static-00.iconduck.com/assets.00/facebook-icon-1024x1024-xbvbpvc1.png"
+                    </a>
+                    <a href="#">
+                        <img src="https://img.freepik.com/free-vector/instagram-background-gradient-colors_23-2147823814.jpg"
+                    </a>
+                    <a href="#">
+                        <img src="https://cdn-icons-png.freepik.com/256/124/124021.png?semt=ais_hybrid"
+                </div>
+            </div>
+            <div class="newsletter">
+                <h3>Newsletter</h3>
+                <p>To receive tips on how to grow your community, sign up to our weekly newsletter. Don't ever send spam, we promise.</p>
+                <form action="">
+                    <input type="email" placeholder="Your Email Address">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
