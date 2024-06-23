@@ -323,13 +323,13 @@ footer .newsletter form button {
                 <p>Email: example@huddle.com</p>
                 <div class="social-icons">
                     <a href="#">
-                        <img src="https://static-00.iconduck.com/assets.00/facebook-icon-1024x1024-xbvbpvc1.png"
+                        <img src=""
                     </a>
                     <a href="#">
-                        <img src="https://img.freepik.com/free-vector/instagram-background-gradient-colors_23-2147823814.jpg"
+                        <img src=""
                     </a>
                     <a href="#">
-                        <img src="https://cdn-icons-png.freepik.com/256/124/124021.png?semt=ais_hybrid"
+                        <img src=""
                 </div>
             </div>
             <div class="newsletter">
